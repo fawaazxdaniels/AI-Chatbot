@@ -3,245 +3,190 @@
       {
         "tag": "greeting",
         "patterns": [
-          "Hi",
-          "Hey",
-          "Hello",
-          "What's up",
-          "Yo",
-          "Howzit",
-          "Good day",
-          "Good morning",
-          "Good evening",
-          "Sup",
-          "Hello there",
-          "Hi there"
+          "Hi", "Hello", "Hey there", "Howzit", "Yo", "What's up?", "Good day", "Sup", "Hey Fawaaz", "Hi tour guide"
         ],
         "responses": [
-          "Howzit! I'm Fawaaz, your Cape Town guide \ud83d\ude0e What do you wanna explore today?",
-          "Yo! You\u2019re chatting with the Mother City\u2019s top guide. Let\u2019s go on an adventure!",
-          "Hey hey! Cape Town\u2019s calling \ud83c\udf1e Need help finding the best spots?",
-          "Hello there! Keen to explore the Mother City today? \ud83c\uddff\ud83c\udde6",
-          "What's cookin'? I\u2019ve got all the Cape Town gems right here \ud83d\udc8e",
-          "Wassup! Ready to explore Cape Town like a local?"
+          "Howzit! I'm Fawaaz, your Cape Town guide 😎 What do you wanna explore today?",
+          "Yo! You’re chatting with the Mother City’s top guide. Let’s go on an adventure!",
+          "Hey hey! Cape Town’s calling 🌞 Need help finding the best spots?",
+          "Welcome to Cape Town, bru! Let’s get you sorted with some awesome plans.",
+          "Lekker to see you! Where in the city would you like to start your journey?",
+          "Hey there! Ready to dive into the magic of Cape Town?"
         ]
       },
       {
         "tag": "goodbye",
         "patterns": [
-          "Bye",
-          "Goodbye",
-          "Cheers",
-          "See you later",
-          "I'm done",
-          "Talk later",
-          "Catch you later",
-          "Peace out",
-          "Gotta go",
-          "I'm off",
-          "See ya"
+          "Bye", "Goodbye", "Cheers", "See you later", "I'm done", "Talk later", "Thanks, I'm off", "Catch you later", "Peace out"
         ],
         "responses": [
-          "Shot for popping in! Come back when you\u2019re ready to explore more \ud83c\uddff\ud83c\udde6",
-          "Later! Cape Town will be waiting \ud83c\udf04",
+          "Shot for popping in! Come back when you’re ready to explore more 🇿🇦",
+          "Later! Cape Town will be waiting 🌄",
           "Take care, and don't forget to check out the sunset at Signal Hill!",
-          "Bye for now, and remember \u2013 Table Mountain\u2019s not going anywhere!",
-          "Till next time! Keep it lekker \ud83e\udd19",
-          "Enjoy your day! The Mother City will be here when you're ready."
+          "Bye for now! Go well and enjoy every moment 🌅",
+          "Till next time, explorer! Safe travels 💼",
+          "Chat soon! Cape Town isn’t going anywhere 😎"
         ]
       },
       {
         "tag": "thanks",
         "patterns": [
-          "Thanks",
-          "Thank you",
-          "Appreciate it",
-          "Cheers",
-          "Dankie",
-          "You're helpful",
-          "Much appreciated",
-          "Thanks a lot",
-          "Many thanks",
-          "Thanks bru"
+          "Thanks", "Thank you", "Appreciate it", "Cheers", "Dankie", "You're helpful", "Ta", "Much appreciated", "Thanks for the help"
         ],
         "responses": [
-          "Only a pleasure! Enjoy the city \ud83c\udfd6\ufe0f",
+          "Only a pleasure! Enjoy the city 🏖️",
           "Anytime! Let me know if you need more tips!",
           "Glad I could help, bru!",
-          "You're welcome, anytime you need Cape Town vibes!",
-          "My pleasure, explore on! \ud83c\udf0d",
-          "Don\u2019t mention it, let\u2019s keep the adventure going!"
+          "You're welcome! Enjoy every bit of the Mother City 🇿🇦",
+          "Of course! Let me know when you’re ready for more fun ideas ✨",
+          "Anytime, legend! Let’s keep the vibes going 🤙"
         ]
       },
       {
-        "tag": "best_restaurants",
+        "tag": "restaurant_recommendations",
         "patterns": [
-          "Where can I eat?",
-          "Recommend a restaurant",
-          "Best restaurants in Cape Town",
-          "Where should I go for dinner?",
-          "Top places to eat",
-          "I'm hungry",
-          "Food spots nearby",
-          "What restaurants are good?",
-          "Where\u2019s the food?",
-          "Nice places to eat?"
+          "Where can I eat?", "Recommend a restaurant", "Best restaurants in Cape Town", "Where should I go for dinner?",
+          "Top places to eat", "I'm hungry", "Food spots nearby", "What restaurants are good?", "Any hidden gem restaurants?"
         ],
         "responses": [
-          "For something lekker, try GOLD Restaurant or Kloof Street House \u2013 food and vibes \ud83d\udd25",
-          "If you\u2019re feeling fancy, head to FYN or La Colombe. You\u2019ll be blown away!",
-          "Craving Cape Town flavor? You can\u2019t go wrong with Bo-Kaap Kombuis or Mama Africa.",
-          "The Pot Luck Club is a top choice if you're feeling adventurous!",
-          "Check out Addis in Cape \u2013 Ethiopian food with flair \ud83c\udf0d",
-          "Want casual and tasty? Try Hudsons or Ramenhead on Kloof!"
+          "For something lekker, try GOLD Restaurant or Kloof Street House – food and vibes 🔥",
+          "If you’re feeling fancy, head to FYN or La Colombe. You’ll be blown away!",
+          "Craving Cape Town flavor? You can’t go wrong with Bo-Kaap Kombuis or Mama Africa.",
+          "For a view with your meal, head to The Lawns at the Roundhouse or Bungalow in Clifton 🌊",
+          "Check out The Pot Luck Club in Woodstock for some unique tapas-style dishes!",
+          "Feeling hungry? Try Addis in Cape for an amazing Ethiopian experience!"
         ]
       },
       {
         "tag": "local_cuisine",
         "patterns": [
-          "What local food should I try?",
-          "Traditional Cape Town dishes?",
-          "Tell me about Cape Malay food",
-          "What\u2019s a Gatsby?",
-          "Local cuisine recommendations",
-          "What\u2019s a koesister?",
-          "Any Cape Town street food?"
+          "What local food should I try?", "Traditional Cape Town dishes?", "Tell me about Cape Malay food",
+          "What’s a Gatsby?", "Local cuisine recommendations", "Any South African dishes to try?", "Cape Town street food?"
         ],
         "responses": [
-          "You\u2019ve gotta try a Gatsby \u2013 it\u2019s a local legend! Or get some bobotie and Cape Malay curry \ud83d\udd25",
-          "From snoek on the braai to koesisters on a Sunday \u2013 we\u2019ve got flavor for days \ud83d\ude0b",
-          "Don\u2019t miss out on bredie, samoosas, or a lekker chakalaka!",
-          "Cape Malay curry is full of spice and heart \u2013 try it at Biesmiellah \ud83c\udf5b",
-          "Vetkoek and mince is proper local comfort food \u2013 give it a bash!"
+          "You’ve gotta try a Gatsby – it’s a local legend! Or get some bobotie and Cape Malay curry 🔥",
+          "From snoek on the braai to koesisters on a Sunday – we’ve got flavor for days 😋",
+          "Definitely grab a boerewors roll at a weekend market – total vibe!",
+          "Cape Malay dishes like bredie, samosas, and pickled fish are a must-try!",
+          "Try chakalaka and pap with a cold Castle Lager – now you’re living like a local 🍻",
+          "Koesisters for breakfast, Gatsby for lunch, and a curry for dinner – perfect foodie day!"
         ]
       },
       {
-        "tag": "sightseeing",
+        "tag": "top_attractions",
         "patterns": [
-          "What can I do in Cape Town?",
-          "Places to visit",
-          "Sightseeing tips",
-          "Things to see",
-          "Tourist attractions",
-          "Popular places in Cape Town",
-          "Where can I go sightseeing?",
-          "What places should I visit?",
-          "Cool spots to visit",
-          "Where should I go sightseeing?"
+          "What can I do in Cape Town?", "Places to visit", "Tourist attractions", "Things to see", 
+          "Cool spots in Cape Town", "Must-see places", "What’s famous in Cape Town?", "Top places to visit"
         ],
         "responses": [
-          "Table Mountain, Robben Island, Bo-Kaap, and the V&A Waterfront \u2013 all must-sees! \ud83d\uddfa\ufe0f",
-          "Climb Lion\u2019s Head for a sunrise view, then take a stroll through the Company\u2019s Garden \ud83c\udf04",
-          "Check out the Castle of Good Hope, it\u2019s a real slice of history! \ud83c\udff0",
-          "For art lovers, the Zeitz MOCAA is a must \ud83c\udfa8",
-          "Take a drive along Chapman\u2019s Peak \u2013 breathtaking views guaranteed!"
+          "Table Mountain, Robben Island, Bo-Kaap, and the V&A Waterfront – all must-sees! 🗺️",
+          "Climb Lion’s Head for a sunrise view, then take a stroll through the Company’s Garden 🌄",
+          "Hit up Cape Point and the lighthouse – it’s dramatic and beautiful!",
+          "Explore Kirstenbosch Botanical Gardens for peace and plant vibes 🌿",
+          "Take the cable car up Table Mountain for a jaw-dropping 360° view!",
+          "Bo-Kaap is perfect for a photo walk and cultural dive 📸"
         ]
       },
       {
-        "tag": "party_spots",
+        "tag": "nightlife",
         "patterns": [
-          "Where to party in Cape Town?",
-          "Nightlife in Cape Town",
-          "Clubs and bars?",
-          "Where\u2019s the vibe?",
-          "Best clubs in the city",
-          "Where to go out tonight?",
-          "Any good bars?"
+          "Where to party in Cape Town?", "Nightlife in Cape Town", "Clubs and bars?", "Where’s the vibe?", 
+          "Best clubs in the city", "Any live music spots?", "Where can I dance?"
         ],
         "responses": [
-          "Long Street is always buzzing! But if you're feeling boujee, check out COCO or Tjing Tjing \ud83c\udf89",
-          "Shimmy Beach Club when it\u2019s vibing? Game changer \ud83d\udd7a",
-          "Head to The Waiting Room or The Athletic Club & Social for a proper jol \ud83e\udea9",
-          "Yours Truly on Kloof has vibes, music, and a rooftop scene!",
-          "Club Paradise, Deco Dance \u2013 let the night take you places \u2728"
+          "Long Street is always buzzing! But if you're feeling boujee, check out COCO or Tjing Tjing 🎉",
+          "Shimmy Beach Club when it’s vibing? Game changer 🕺",
+          "The Waiting Room and Yours Truly are lekker for chill drinks and music 🎶",
+          "If you're into electronic vibes, try Modular or ERA 🌀",
+          "Check out Harringtons for cocktails and classy grooves 🍸",
+          "For live bands, head to Café Roux or Raptor Room 🎤"
         ]
       },
       {
-        "tag": "romantic_places",
+        "tag": "romantic_spots",
         "patterns": [
-          "Romantic places in Cape Town?",
-          "Where can I take my partner?",
-          "Date ideas?",
-          "Places to go on a date",
-          "Best places for couples",
-          "Romantic views in Cape Town?"
+          "Romantic places in Cape Town?", "Where can I take my partner?", "Date ideas?", 
+          "Places to go on a date", "Best places for couples", "Romantic sunset spots?"
         ],
         "responses": [
-          "Picnic at Kirstenbosch, sunset at Signal Hill, or dinner at Kloof Street House \ud83d\udc95",
-          "Camps Bay at golden hour? Chef\u2019s kiss for a date night \ud83d\ude0d",
-          "Sunset cruise from the Waterfront? Romance on the water \ud83d\udea4\u2764\ufe0f",
-          "Try the Sky Hotel rooftop bar for a fancy evening out \ud83c\udf03",
-          "Drive to Chapman\u2019s Peak with some snacks \u2013 romantic and scenic!"
+          "Picnic at Kirstenbosch, sunset at Signal Hill, or dinner at Kloof Street House 💕",
+          "Camps Bay at golden hour? Chef’s kiss for a date night 😍",
+          "Take a sunset cruise from the V&A – guaranteed romance ⛵",
+          "Stroll along Sea Point Promenade hand-in-hand 🌊",
+          "Horse riding on Noordhoek beach? Super romantic and scenic 🐎",
+          "Grab wine and watch the stars from Constantia Nek ✨"
         ]
       },
       {
-        "tag": "fun_activities",
+        "tag": "outdoor_adventures",
         "patterns": [
-          "Fun things to do",
-          "Activities in Cape Town",
-          "Adventure ideas",
-          "Outdoor fun",
-          "What should I do today?",
-          "Cool things to try",
-          "Best experiences in Cape Town"
+          "Fun things to do", "Activities in Cape Town", "Adventure ideas", "Outdoor fun", 
+          "What should I do today?", "Adventurous things to try?", "Cool outdoor experiences?"
         ],
         "responses": [
-          "Try surfing in Muizenberg, paragliding off Signal Hill, or wine tasting in Constantia \ud83c\udf77",
-          "Cape Town\u2019s a playground! Let me know if you\u2019re in the mood for chill or thrill \ud83d\ude0e",
-          "Go sandboarding in Atlantis or take a boat to see seals at Hout Bay!",
-          "Up for hiking? Try Devil\u2019s Peak or Skeleton Gorge \u26f0\ufe0f",
-          "A Cape Point day trip = wild scenery and baboons! \ud83d\udc12"
+          "Try surfing in Muizenberg, paragliding off Signal Hill, or wine tasting in Constantia 🍷",
+          "Cape Town’s a playground! Let me know if you’re in the mood for chill or thrill 😎",
+          "Go sandboarding in Atlantis dunes or hike to Elephant’s Eye Cave 🏞️",
+          "Rent a kayak and paddle with dolphins in Sea Point 🐬",
+          "Visit Cape Point Nature Reserve for wild views and animals 🐒",
+          "Up for adventure? Abseil off Table Mountain for the thrill of your life!"
         ]
       },
       {
-        "tag": "family_friendly",
+        "tag": "recommend_between_two",
         "patterns": [
-          "Things to do with kids",
-          "Family-friendly activities",
-          "Places for children",
-          "Kid-friendly attractions",
-          "Fun for families in Cape Town?"
+          "Which is better, Table Mountain or Lion's Head?", "Should I go to Camps Bay or Clifton?",
+          "Which do you prefer, Boulders or Muizenberg?", "Table Mountain vs Signal Hill?", "Clifton or Llandudno?"
         ],
         "responses": [
-          "The Two Oceans Aquarium is a hit with the little ones \ud83d\udc20",
-          "Take a ride on the Cape Wheel or explore the Iziko Museum!",
-          "The Company\u2019s Garden has squirrels to feed and open space to run around \ud83c\udf33",
-          "Enjoy a beach day at St James \u2013 safe waves and colourful huts!",
-          "Head to Bugz Playpark \u2013 hours of fun for kids! \ud83c\udfa0"
+          "Depends on your vibe! But I’d go with {preference} – more views and local flavor 😎",
+          "Tough choice! I personally dig {preference} – always a lekker time there!",
+          "Honestly, both are amazing, but if I had to choose, I'd say {preference}.",
+          "For photos and vibes? {preference} is your go-to 📸",
+          "If you want a local opinion: {preference} never disappoints 👌"
         ]
       },
       {
-        "tag": "free_things",
+        "tag": "more_suggestions",
         "patterns": [
-          "Free things to do",
-          "What can I do for free?",
-          "Free attractions in Cape Town",
-          "Budget-friendly activities",
-          "No cost fun in Cape Town"
+          "anything else?", "what else?", "more options?", "more places?", "show me more",
+          "got any other ideas?", "other places to go?"
         ],
         "responses": [
-          "Hike Lion\u2019s Head or stroll the Sea Point Promenade \u2013 no ticket needed! \ud83e\udd7e",
-          "Bo-Kaap is colourful, cultural, and free to walk through! \ud83d\udcf8",
-          "Visit the Greenmarket Square for window shopping and street vibes \ud83c\udfad",
-          "Picnic at the Green Point Urban Park is a win! \ud83e\uddfa",
-          "Enjoy the views from Bloubergstrand beach \u2013 Table Mountain backdrop included!"
+          "You bet! How about a sunset cruise or a visit to the Zeitz MOCAA museum? 🎨⛵",
+          "Yup! Try a day trip to Cape Point or a wine tram ride in Franschhoek 🍷",
+          "Absolutely! You could check out Woodstock for street art or go shark cage diving 🦈",
+          "Ever heard of the Cederberg caves? A bit out, but totally worth it! ⛰️",
+          "There’s always something cool around the corner – how about a market at the Old Biscuit Mill?"
         ]
       },
       {
-        "tag": "hidden_gems",
+        "tag": "unsure",
         "patterns": [
-          "Hidden gems in Cape Town?",
-          "Underrated places?",
-          "Secret spots to visit",
-          "Off the beaten path",
-          "Cool places tourists miss"
+          "Can you book tickets for me?", "Is there WiFi at my hotel?", "Do you know if it’s open tomorrow?", 
+          "Can I park there?", "Is it kid-friendly?", "Is it pet-friendly?", "Do I need cash?", 
+          "Can I take the bus?", "Do I need a reservation?"
         ],
         "responses": [
-          "Beta Beach in Bakoven \u2013 quiet, scenic, and perfect for a chill swim \ud83c\udf0a",
-          "Wynberg Park has a cool foresty vibe and fewer crowds \ud83c\udf32",
-          "Woodstock\u2019s street art scene is a creative explosion \ud83c\udfa8",
-          "Explore the tunnels beneath the Castle of Good Hope (yep, for real!)",
-          "Check out the Oudekraal beach area \u2013 peaceful coves and braai spots \ud83d\udd25"
+          "Sho... I’m not 100% sure about that 😅 Pop your question to tourguide.va@capetown.co.za and they’ll sort you out.",
+          "That’s a bit outside my info zone, bru. Try emailing tourguide.va@capetown.co.za 👌",
+          "I might not have the exact details for that. Best bet is to check directly or mail the city’s info line.",
+          "Hmm, that one’s a bit tricky – maybe contact the venue or check Google just to be safe!"
+        ]
+      },
+      {
+        "tag": "off_topic",
+        "patterns": [
+          "Tell me about Johannesburg", "Do you like anime?", "What’s Bitcoin?", "Where’s the best place in Europe?",
+          "What’s your favorite color?", "Are you a real person?", "Can you rap?"
+        ],
+        "responses": [
+          "Eish, that’s out of my comfort zone bru 😅 Try asking me about the lovely Mother City 🌍",
+          "Hmm, that’s not really my thing hey. I’m more of a Cape Town kinda guy 🇿🇦",
+          "Haha, I’d rather stick to helping you explore Cape Town – I’m pretty good at that!",
+          "Let’s keep it local – there’s way too much Cape Town magic to explore first!"
         ]
       }
     ]
   }
+  
